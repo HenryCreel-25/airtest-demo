@@ -27,11 +27,9 @@ http://airtest.netease.com/ 下载解压。用来截图，不需要用它跑脚�
 
 ## 2. 截图
 
-用 AirtestIDE 连接模拟器（设备窗 → Android → 远程设备连接 → 填 `Android://127.0.0.1:7555`），右侧会显示画面。
+见本地的 `Airtest截图指南.md`，里面有完整清单和操作说明。
 
-框选目标区域 → 截图按钮 → 保存到 `screenshots/`。具体需要哪些图看 screenshots/README.md。
-
-要点：框选范围尽量小，分辨率固定 1280×720。
+截图后把 .png 放入项目根目录的 `screenshots/`，脚本就能找到。
 
 ## 3. 跑测试
 
