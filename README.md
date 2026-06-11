@@ -10,11 +10,9 @@
 
 ```bash
 pip install -r requirements.txt
-# 下载慢的话:
+# or
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-
-截图模板图片后放入项目根目录的 `screenshots/`，具体清单见本地 `Airtest截图指南.md`。
 
 ## 运行
 
