@@ -7,7 +7,7 @@ if not cli_setup():
 
 def test_login():
     wait(Template(r"screenshots/login_account_input.png",
-                  threshold=0.8, record_pos=(0.2, 0.3)),
+                  threshold=0.8),
          timeout=30, interval=1)
 
     touch(Template(r"screenshots/login_account_input.png"))
